@@ -10,3 +10,4 @@ def prime?(num)
 end
 
 p prime?(13)
+p prime?(24)
