@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(num)
 return true if num == 2
-
+return false if num <= 1
   prime = true
 
   (2..num).each do |n|
