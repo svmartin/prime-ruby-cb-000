@@ -6,6 +6,7 @@ def prime?(num)
     if num / n == 0
       prime = false
     end
+    break if n >= num / 2
   end
 end
 
