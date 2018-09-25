@@ -13,3 +13,4 @@ end
 
 p prime?(13)
 p prime?(24)
+p prime?(111)
