@@ -8,6 +8,7 @@ def prime?(num)
     end
     break if n >= num / 2
   end
+  prime
 end
 
 p prime?(13)
